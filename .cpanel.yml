@@ -3,3 +3,5 @@ deployment:
  tasks:
  - export DEPLOYPATH=/home/digiwebcam/public_html/product
  - /bin/cp index.php $DEPLOYPATH
+ - /bin/cp index.php $DEPLOYPATH
+ - /bin/cp .cpanel.yml $DEPLOYPATH
