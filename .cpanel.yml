@@ -5,3 +5,4 @@ deployment:
  - /bin/cp index.php $DEPLOYPATH
  - /bin/cp index.php $DEPLOYPATH
  - /bin/cp .cpanel.yml $DEPLOYPATH
+ - /bin/cp -R * $DEPLOYPATH
