@@ -6,3 +6,7 @@ deployment:
  - /bin/cp index.php $DEPLOYPATH
  - /bin/cp .cpanel.yml $DEPLOYPATH
  - /bin/cp -R * $DEPLOYPATH
+ command: cp -r /home/digiwebcam/public_html/product
+  with_items:
+   - "index.php"
+   - "static/"
