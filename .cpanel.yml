@@ -8,5 +8,5 @@ deployment:
  - /bin/cp -R * $DEPLOYPATH
  command: cp -r /home/digiwebcam/public_html/product
   with_items:
-   - "index.php"
+   - "index.html"
    - "static/"
